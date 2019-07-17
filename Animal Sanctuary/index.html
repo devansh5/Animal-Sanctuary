@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <title>Animal Santuary</title>
+
+  </head>
+  <body>
+    <div class="header">
+      <h1>Animal Sanctuary</h1>
+      <p>We Move The World To Protect Animals</p>
+    </div>
+    <div id="navbar">
+      <a href="javascript:void(0)">About</a>
+      <a href="javascript:void(0)">Contact</a>
+      <a href="javascript:void(0)">Support</a>
+      <a href="javascript:void(0)">Animals</a>
+      <a class="active" href="javascript:void(0)">Home</a>
+
+    </div>
+
+    <div class="container">
+      <div class="main">
+        <h1>OUR MISSION</h1>
+        <em>
+            "Until one has loved an animal, a part of one's soul remains unawakened."
+        </em>
+        <p>
+          Once animals have gone through the rescue and rehabilitation centers and been declared non-releasable into the wild,
+          we are proud to provide them with a permanent home, outstanding care, and regular enrichment.
+        </p>
+        <h1 id=f>ANIMALS</h1>
+
+      </div>
+
+
+    </div>
+
+
+     <div class="row">
+        <div class="column ">
+          <div class="content">
+            <img src="imgs/ewr.jpg" alt="Lions" style="width=100%">
+            <h2>Leopard</h2>
+            <p>The leopard (Panthera pardus)
+              is one of the five extant species in the genus Panthera,
+              a member of the Felidae.</p>
+          </div>
+        </div>
+        <div
+        <div class="column ">
+          <div class="content">
+            <img src="imgs/g5.jpg" alt="Lions" style="width=100%">
+            <h2>Giraffe</h2>
+            <p>The giraffe (Giraffa) is an African even-toed ungulate mammal,
+              the tallest living terrestrial animal and the largest ruminant
+
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="support">
+        <div class="contaicom">
+         <h2>Subscribe to our Newsletter</h2>
+         <p>For more information related to animals</p>
+       </div>
+
+       <div class="contaicom" style="background-color:#1C1B1A">
+         <input type="text" placeholder="Name" name="name" required>
+         <input type="text" placeholder="Email address" name="mail" required>
+         <label>
+           <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+         </label>
+       </div>
+
+       <div class="contaicom">
+         <input type="submit" value="Subscribe">
+       </div>
+
+
+
+      </div>
+      <div class="an">
+        <p>Thanks For Visiting</p>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+
+
+  </body>
+</html>
